@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+    id "com.github.samueltbrown.cucumber" version "0.9"
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    cucumberRuntime "info.cukes:cucumber-java:$cucumberVersion"
+    cucumberCompile "info.cukes:cucumber-java:$cucumberVersion"
+    cucumberCompile "junit:junit:4.12"
+}
